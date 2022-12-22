@@ -1,0 +1,74 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1E252B;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.container{
+    max-width: 1254px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__wrapper{
+    padding: 26px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+    font-size: 22px;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.header__list {
+    display: flex;
+    gap: 34px;
+}
+
+.header__link {
+    color: rgba(255, 255, 255, 0.55);
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    color: white;
+}
+
+.header__buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.button {
+    background-color: #FF6E30;
+    padding: 12px 28px;
+    border-radius: 8px;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+
+    cursor: pointer;
+}
+
+.header__login {
+    background-color: #1E252B;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.header__login:hover {
+    color: white;
+}
+
