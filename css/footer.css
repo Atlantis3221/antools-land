@@ -53,4 +53,9 @@
     line-height: 24px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.55);
+    transition: 0.3s;
+}
+
+.footer__link:hover {
+    color: rgba(255, 255, 255, 0.9);
 }
