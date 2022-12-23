@@ -1,0 +1,27 @@
+.brand {
+    margin-bottom: 200px;
+}
+
+.brand__wrapper {
+    padding: 55px 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+
+    border-radius: 25px;
+    background-color: #283036;
+    background-image: url("../img/brand-bg.svg");
+    background-size: cover;
+}
+
+.brand__caption {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.brand__items {
+    display: flex;
+    flex-direction: row;
+    gap: 107px;
+}

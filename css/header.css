@@ -1,0 +1,46 @@
+.header__wrapper {
+    padding: 26px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    font-size: 22px;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.header__list {
+    display: flex;
+    gap: 34px;
+}
+
+.header__link {
+    color: rgba(255, 255, 255, 0.55);
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    color: white;
+}
+
+.header__buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.header__login {
+    background-color: #1E252B;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.header__login:hover {
+    color: white;
+}

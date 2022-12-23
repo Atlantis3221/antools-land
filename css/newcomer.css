@@ -1,0 +1,47 @@
+.newcomer {
+    margin-bottom: 200px;
+}
+
+.newcomer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newcomer__info {
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.newcomer__caption {
+    font-size: 48px;
+    line-height: 62px;
+}
+
+.newcomer__description {
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    margin-bottom: 30px;
+}
+
+.newcomer__button {
+    width: fit-content;
+}
+
+.newcomer__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    column-gap: 30px;
+    row-gap: 70px;
+}
+
+.newcomer__card {
+    padding: 28px 22px;
+    flex: 0 0 29%;
+}
