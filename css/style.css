@@ -70,7 +70,7 @@ body {
     transition: 0.3s;
 }
 
-.card__item {
+.card {
     padding: 33px;
     border-radius: 15px;
     flex: 0 0 26%;
@@ -80,7 +80,7 @@ body {
     transition: 0.3s;
 }
 
-.card__item:hover {
+.card:hover {
     background-color: rgba(40, 48, 54, 0.6);
     background-image: url("../img/card-back.png");
     background-size: cover;
@@ -89,7 +89,7 @@ body {
     box-shadow: 0px 0px 10px 1px rgb(40 48 54 / 60%);
 }
 
-.card__item:hover .card__link {
+.card:hover .card__link {
     border: 1px solid #FF6E30;
 }
 
